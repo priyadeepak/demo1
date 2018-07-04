@@ -1,9 +1,19 @@
 {
   "name": "alexa-howto",
-  "description": "Example Amazon Alexa Skill built with the Amazon Alexa Skills SDK",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
+  "description": "Minecraft demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "minecraft"
+  ],
+  "author": "Amazon.com",
+  "license": "Apache-2.0",
   "dependencies": {
-    "alexa-sdk": "^1.0.6"
+    "ask-sdk": "^2.0.0"
   }
 }
